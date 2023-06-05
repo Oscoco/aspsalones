@@ -90,6 +90,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="imgs\Logo.min.png" />
+    <Content Include="pages\CRUDMAESTROS.aspx" />
     <Content Include="pages\index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -104,6 +105,13 @@
     </Compile>
     <Compile Include="MP.Master.designer.cs">
       <DependentUpon>MP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pages\CRUDMAESTROS.aspx.cs">
+      <DependentUpon>CRUDMAESTROS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\CRUDMAESTROS.aspx.designer.cs">
+      <DependentUpon>CRUDMAESTROS.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

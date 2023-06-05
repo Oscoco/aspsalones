@@ -8,21 +8,23 @@
     <!-- acciones para ir a crud  -->
     <div class="w-full flex justify-center items-center h-[70vh]">
         
+         <a class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 w-72 h-72 border border-blue-700 rounded-md m-5 drop-shadow-md flex justify-center items-center flex-col" href="../pages/CRUDMAESTROS.aspx">
+             <i class='bx bxs-first-aid text-6xl m-1'></i>
+             <p>Agregar nuevo maestro</p>
+        </a>
 
-        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 w-56 h-56 border border-blue-700 rounded-md m-5 drop-shadow-md">
-            <i class='bx bxs-first-aid text-3xl'></i>
-            <p>Agregar nuevo maestro</p>
-        </button>
 
-        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 w-56 h-56 border border-blue-700 rounded-md m-5 drop-shadow-md">
-            <i class='bx bx-user-plus text-3xl'></i>
-            <p>Agregar nuevo Alumno</p>
-        </button>
+         <a class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 w-72 h-72 border border-blue-700 rounded-md m-5 drop-shadow-md flex justify-center items-center flex-col" href="../pages/CRUDALUMNO.aspx">
+             <i class='bx bx-user-plus text-6xl m-1'></i>
+             <p>Agregar nuevo Alumno</p>
+        </a>
+   
 
-        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 w-56 h-56 border border-blue-700 rounded-md m-5 drop-shadow-md">
-            <i class='bx bx-edit-alt text-3xl'></i>
+        <a class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 w-72 h-72 border border-blue-700 rounded-md m-5 drop-shadow-md flex justify-center items-center flex-col" href="../pages/CRUDSALON.aspx">
+            <i class='bx bx-edit-alt text-6xl m-1'></i>
             <p>Agregar nuevo Salon</p>
-        </button>
+        </a>
+
     </div>
      <div>
         <h2 class="text-2xl text-center font-bold m-5">¿Qué acción deseas realizar?</h2>
