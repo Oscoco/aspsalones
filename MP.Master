@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MP.master.cs" Inherits="salones.MP" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <nav class="text-gray-400 bg-gray-900 body-font font-bold">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+          <img class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" src="../imgs/Logo.min.png" alt="">
+           
+   
+          <span class="ml-3 text-xl">Conexion</span>
+        </a>
+        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center font-bold cursor-pointer">
+          <a class="mr-5 hover:text-white" href="../">Home</a>
+          <a class="mr-5 hover:text-white">Salones</a>
+          <a class="mr-5 hover:text-white">Maestros</a>
+          <a class="mr-5 hover:text-white">Alumnos</a>
+        </nav>
+        <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-red-700 rounded text-base mt-4 md:mt-0 text-white">Salir
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+     <asp:ContentPlaceHolder ID="body" runat="server">
+     </asp:ContentPlaceHolder>
+</body>
+</html>
